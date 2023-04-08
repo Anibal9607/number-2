@@ -8,12 +8,15 @@
         </head>
         <body>
             <h1> PORTAFOLIO DE ESTUDIOS DEL INTERNADO MÉDICO</h1>
+            
 
             <div id="container">
 
+                <div class="clearfix"></div>
+
                 <header>
 
-                    <h1> Rotación de internado médico en el Hospital II-1 Moyobamba y Hospital Rural Nueva Cajamarca</h1>
+                    <h2> Rotación de internado médico en el Hospital II-1 Moyobamba y Hospital Rural Nueva Cajamarca</h2>
                     <img src="https://cdn.www.gob.pe/uploads/document/file/606748/standard_minsa.jpg" width="520px" height="300">
                     <img src="https://docplayer.es/docs-images/82/85150510/images/42-0.jpg" width="576px" height="300px">
                 </header>
@@ -85,13 +88,115 @@
                 
                 <footer>
                   <a href="https://www.tiktok.com/@anibalperu?_t=8bH4BRg1gE2&_r=1" target="_blank">Dr. Anibal Gonzales WEB</a>
+
+            
+                  
                 </footer>
+                
 
             </div>
-
+            
 
         
         </body>
      
 
     </html>
+    <style>
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background:rgb(172, 157, 94) ;
+
+}   
+
+h1{
+    color: rgb(78, 78, 156);
+    border: 5px groove black;
+}
+
+.clearfix{
+    clear:both;
+    }
+#container{
+    /*width: 70%;*/
+    width: 1100px;
+    margin: 1px auto;
+    border: 2px solid black;
+
+#position{
+    position: sticky;
+    left: 20px;
+    top: 25px
+
+
+}
+
+.left{
+    float: left;
+}
+
+}
+.article{
+
+}
+
+header{
+    background: lightblue;
+    
+
+
+   
+
+} 
+nav{ 
+    background: lightskyblue;
+    height: 50px;
+    border-bottom: 1px solid black; 
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px
+
+}
+
+.clearfix{
+    clear:both;
+}
+
+#content{
+    float: left;
+    width: 100%;
+    background: rgb(145, 145, 202);
+}
+
+.article{
+    color: rgb(34, 15, 15);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid seashell
+}
+
+
+
+aside{
+    float: left;
+    width: 1100px;
+    background: whitesmoke;
+}
+
+footer{
+    background: goldenrod;
+    color: whitesmoke;
+    text-align: center;
+    height: 50px;<st
+    line-height: 50px;
+}
